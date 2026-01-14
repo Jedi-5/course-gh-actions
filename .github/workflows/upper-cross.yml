@@ -2,6 +2,8 @@ name: upper-cross
 
 on:
   push:
+    branches:
+      - main
     paths:
       - ".github/workflows/upper-cross.yml"
       - "upper/**"
